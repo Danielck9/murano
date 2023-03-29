@@ -1,0 +1,36 @@
+.feature-name {
+    color: rgb(7, 135, 205);
+  }
+  
+h2{
+    padding-left: 1.5rem;
+}
+p.lead{
+    padding-left: 1.5rem;
+}
+
+.fa-solid {
+    font-style: italic;
+    background-color: aliceblue;
+    margin-left: 60px;
+    width: 0;
+    height: 0;
+
+    
+}
+.fa-truck-moving:before {
+    color: rgb(3, 82, 124);
+}
+
+.fa-city:before {
+    color: rgb(3, 82, 124);
+}
+
+.fa-helmet-safety:before{
+  color:  rgb(3, 82, 124);
+}
+
+.feature p {
+    text-align: justify;
+  }
+  
