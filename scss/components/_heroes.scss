@@ -1,3 +1,62 @@
-.mx-lg-auto {
+.quienes-somos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quienes-somos-texto {
+    max-width: 50%;
+    margin-right: 50px;
+  }
+  
+  .quienes-somos-imagenes {
+    display: flex;
+  }
+  
+  .quienes-somos-imagenes img {
     border-radius: 10px;
-}
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .quienes-somos-imagenes img:first-child {
+    margin-right: 50px;
+  }
+  
+  .quienes-somos-texto h2 {
+    color: #307da7;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .quienes-somos-texto p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .quienes-somos {
+      flex-direction: column;
+    }
+    
+    .quienes-somos-imagenes {
+      margin-top: 40px;
+      justify-content: center;
+    }
+    
+    .quienes-somos-imagenes img:first-child {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    
+    .quienes-somos-texto {
+      max-width: 100%;
+      margin-right: 0;
+      text-align: center;
+    }
+  }
+  

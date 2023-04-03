@@ -1,11 +1,105 @@
-.slide{
-    border-radius: 2rem;
+.slick-slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+  }
   
+  .slick-slider .slick-list {
+    position: relative;
+    display: block;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
 }
 
-.slide img{
-    border-radius: 2rem;
   
-    overflow: hidden;
-}
+  .slick-slider .slick-list:focus {
+    outline: none;
+  }
+  
+  .slick-slider .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+  .slick-slider .slick-slider-nav {
+    display: block;
+  }
+  
+  #carousel.slick-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: block;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 0px;
+    outline: none;
+  }
+  
+  .slick-slider .slick-prev {
+    left: 0;
+  }
+  
+  .slick-slider .slick-next {
+    right: 0;
+  }
+  
+  .slick-slider .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .slick-slider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .slick-slider .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #ccc;
+    border-radius: 50%;
+  }
+  
+  .slick-slider .slick-dots li.slick-active button {
+    background: #fff;
+  }
+  .slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    

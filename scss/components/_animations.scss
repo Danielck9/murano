@@ -1,0 +1,9 @@
+.anim-fade-in {
+    opacity: 0; /* Inicia con opacidad en 0 */
+    transition: opacity 1s ease-in-out; /* Definimos la transición */
+  }
+  
+  .anim-fade-in.appear { /* Agregamos la clase appear */
+    opacity: 1; /* Cambiamos la opacidad a 1 para que aparezca */
+  }
+  

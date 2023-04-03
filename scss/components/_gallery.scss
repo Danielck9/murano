@@ -1,0 +1,57 @@
+.slick-prev, .slick-next {
+    display: none !important;
+  }
+.project-gallery {
+    margin-bottom: 50px;
+  }
+
+  .project-heading {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .project-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #307da7;
+  }
+  
+  .project-gallery h3 {
+    text-align: center;
+    color: #3ea5dd;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin-bottom: 50px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    width: 410px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  .gallery-caption {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .gallery-item {
+      flex-basis: calc(33.33% - 40px);
+    }
+  }
+  
